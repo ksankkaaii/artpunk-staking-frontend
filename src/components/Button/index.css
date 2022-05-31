@@ -1,0 +1,31 @@
+button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 27px;
+    border: 1px solid #D6D6D8;
+    color: #fff;
+    border-radius: 8px;
+}
+
+button:hover {
+    transform: translate(1px, 1px);
+}
+
+button:disabled {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.dark {
+    background-color: var(--midBlue);
+    color: white;
+}
+
+.light {
+    color: var(--midBlue);
+    background-color: white;
+}

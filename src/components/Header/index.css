@@ -1,0 +1,78 @@
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+
+.header-div>div {
+    display: flex;
+    align-items: center;
+}
+
+.header-div>div>a {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+    margin-right: 64px;
+    color: white;
+}
+
+.header-div>div>a.active {
+    text-decoration: underline;
+}
+
+.header-div #search:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .toggle {
+        margin-left: 8px;
+    }
+
+    .menu {
+        position: fixed;
+        overflow: hidden;
+        top: 128px;
+        left: 0;
+        padding-left: 24px;
+        width: 100%;
+        height: calc(100% - 128px);
+        background: var(--grey);
+        padding-bottom: 107px;
+
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .menu a {
+        font-family: Arvo;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-decoration: none;
+    }
+
+    a.active {
+        color: #95F7C8;
+    }
+
+    .menu div {
+        font-family: Arvo;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        margin-top: 40px;
+    }
+}

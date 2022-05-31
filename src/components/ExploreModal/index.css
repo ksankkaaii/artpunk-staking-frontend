@@ -1,0 +1,85 @@
+.exploer-div {
+    position: fixed;
+    background-color: #00000077;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exploer-div .modal {
+    width: 862px;
+    border: 2px solid #D6D6D8;
+    text-align: center;
+    background-color: #000000;
+}
+
+.exploer-div .body {
+    padding: 31px 76px 0;
+}
+
+.exploer-div .font_52 {
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 69px;
+    letter-spacing: 0;
+}
+
+.exploer-div .font_20 {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: lighter;
+    margin-top: 7px;
+}
+
+.exploer-div .lands {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exploer-div .container {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #D6D6D8;
+    background-color: #01030d78;
+    cursor: pointer;
+}
+
+.exploer-div .container.selected {
+    border: 1px solid #0baeee;
+}
+
+.exploer-div .font_14 {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: lighter;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.exploer-div .font_8 {
+    font-size: 8px;
+    line-height: 11px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.exploer-div .footer {
+    height: 38px;
+    margin-top: 55px;
+    margin-bottom: -1px;
+    display: flex;
+}
+
+.exploer-div .btn {
+    width: 50%;
+    border: 1px solid #D6D6D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

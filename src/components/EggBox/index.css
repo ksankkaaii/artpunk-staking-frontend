@@ -1,0 +1,69 @@
+.egg-div {
+    width: 32%;
+}
+
+.eggs .loop {
+    margin-right: 90px;
+    width: calc((100% - 180px) / 3);
+    min-width: 28%;
+}
+
+.swiper-slide {
+    min-width: 28% !important;
+}
+
+.egg {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 8px 8px 0 0;
+}
+
+.egg .main {
+    width: 100%;
+    min-height: 360px;
+    height: 360px;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+}
+
+.egg.lockable .main {
+    opacity: 0.5;
+}
+
+.description {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+
+}
+
+.description img {
+    width: 100px;
+    height: 100px;
+}
+
+.button-group {
+    display: flex;
+}
+
+.detail {
+    background: white;
+    color: black;
+    padding: 28px;
+    border-radius: 0 0 8px 8px;
+}
+
+.detail .divider {
+    border-bottom: solid 1px #f7f7f7;
+}
